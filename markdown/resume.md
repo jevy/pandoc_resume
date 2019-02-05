@@ -30,7 +30,7 @@ Professional Experience
     * Lead the FDA submission documentation and internal compliance process.
     * Manage all technology development and the product roadmap.
     * Lead the product redesign of our internal data exploration and data analysis tool on over 2 TB of images in our data storage.
-    * Restored communication between the data management and data science teams. We worked to isolate problem areas and come up with more functional systems. They are now working nearly as as single team.
+    * Restored collaboration between the data management and data science teams. We worked to isolate problem areas and come up with more functional systems. They are now working nearly as as single team.
     * To clarify its priorities and direction, I transitioned the entire company from Github issues to Clubhouse, resulting in positive design decisions and tangible feedback that it produced new momentum for the company.
     * Worked with the data management team to stop doing manual labelling of data. Coached the team to build Mechanical Turk tasks, recruited a team of 20 dermatologists to classify skin conditions in images and a team of General Practitioners to help build our symptom checker database.
     * Set up and implemented the core company KPIs in Metabase, where they were posted to Slack on a daily/weekly basis.
@@ -89,8 +89,7 @@ Professional Experience
     * Developed a predictive model to allow a day trading company to make market predictions based on its specific style of trading.
     * Built 15 products in the first five years for various clients, in each case releasing the first production-ready version two weeks from the start of development.
     * Implemented virtualization using Google Cloud and Digital Ocean’s infrastructures. We use Docker Compose and Kubernetes with Debian Linux.
-    * Built initial product design in Invision and Marvel, usually in under two days.
-    * Helped organizations develop their own internal machine learning product.
+    * Built initial product designs in Invision and Marvel, usually in under two days.
     * Recruited a team of 7 Engineers and developers and 2 Designers.  Two of these professionals have come along with me to other companies and client projects.
     * Maintaining a high code quality through continuous integration and regular deployment using Circle CI and Docker images.
 
