@@ -3,11 +3,11 @@ Jevin Maltais
 
 ----
 
-I have been starting companies since I was 13 years old. I have built and managed remote teams of up to 12 engineers, designers and product managers in various businesses. When building products for myself and for clients, I learned to became a trial by fire proficient lean product manager. This allows me to effectively factiliate between all types of team members.
+Starting at age 13, I’ve been a serial entrepreneur building new businesses. I have managed remote teams of up to 12 engineers, designers and product managers in diverse industry sectors. While designing innovative products for clients, I’ve learned how to be a lean and proficient ‘trial by fire’ product manager, facilitating efficient coordination among all team members.
 
-I’m currently based in Ottawa, Canada, and am exclusively interested in remote-only positions (with some travel).
+I’m interested in leading either a product team or an engineering team or a combination of both. I’m also comfortable managing Data Scientists, especially where there is a desire to focus their expertise more on products.
 
-I'm interested in leading either product or engineering teams or a combination of both. I'm also comfortable managing Data Scientists where there is a desire to make them more product focused.
+I’m currently based in Ottawa, Canada, and interested exclusively in remote-only positions (with some travel).
 
 ----
 
@@ -18,95 +18,108 @@ Education
 :   **B.Eng Systems Engineering**
     Carleton University (Ottawa)
 
-Experience
+Professional Experience
 ----------
 
-
-2018-2019
+02/18-01/19
 :   **Triage.com: CTO and Director of Product Engineering:**
-    After stepping into a CTO role after there was a 5 month vacuum of technical/product leadership, there was a ton of tech, management and emotional baggage I had to work through with the team. Even still, we accomplished some incredible things.
+    Stepping into a CTO role to fill a 5 month vacuum in technical/product leadership, I encountered a ton of tech, management and emotional baggage to work through with the team. I took over all product management and technical architecture for the company:
 
-    * Built the first publically available, Deep Learning skin skin classifier for over 124 skin conditions.
-    * Lead the FDA submission documentation and internal compliance process.
-    * Managed all technology development and product management for almost a year.
-    * Significantly improved the relationships between the different teams.
-    * In an effort to make the whole company priorities and progress crystal clear, transissioned the entire company from Github issues to Clubhouse.io. This resulted in the team making helpful design decisions and tangible feedback where everyone saw momentum in our company.
-    * Immedidately implemented (bi)weekly one on ones with everyone on my team.
-    * Recruited 2 engineers and 3 devops consultants within 2 months of being in the role.
+    * Built the first publicly available, Deep Learning skin classifier for over 124 dermatological conditions
+    * Lead the FDA submission documentation and internal compliance process
+    * Manage all technology development and the product roadmap
+    * Lead the product redesign of our internal data exploration and data analysis tool on over 2 TB of images in our data storage
+    * Restored communication between the data management and data science teams. We worked to isolate problem areas and come up with more functional systems. They are now working nearly as as single team.
+    * To clarify its priorities and direction, I transitioned the entire company from Github issues to Clubhouse, resulting in positive design decisions and tangible feedback that produced new momentum for the company.
+    * Worked with the data management team to stop doing manual labelling of data. Coached the team to build mechanical turk tasks, recruited a team of 20 dermatologists to classify skin conditions in images and a team of General Practitioners to help build our symptom checker database.
+    * Set up and implemented the core company KPIs in Metabase, where they were posted to Slack on a daily/weekly basis.
+    * Immediately implemented bi-weekly one on ones with everybody on my team to coach individuals through their technical and professional challenges and provide external counseling and mentorship as needed.
+    * Hired 2 engineers and 3 devops consultants in my first 2 months.
+    * Conducted team video training sessions on effective use of our tech tools. This improved communication and boosted the quality of product development.
+    * Implemented a career ladder for the data science and software engineering teams, resulting in concrete plans to set expectations and manage performance, growth and retention strategies.
 
-    All of the above was accomplished with me and a number of our team members being entirely remote.
+    All this was accomplished as several team members and I worked remotely.  The team includes 6 Data Scientists, 4 Engineers and 3 Data Managers working with:
 
-    * 6 Data Scientists, 4 Engineers, 3 Data Managers
     * Keras
-    * Docker/Kubernetes
+    * Virtualization: Docker/Kubernetes in Debian Linux
     * React
     * Ruby on Rails
 
-2017 - Present
-:   **Willowbee.ca - Product/Tech/Marketing, Founder**
+09/17 - Present
+:   **Willowbee.ca - Product Manager, Technical Manager, and Marketing.  Founder**
 
-    With a lawyer friend of mine, we built the most advanced Canadian will and testiment builder. We are currently offering the wills for free and working with life insurance companies to generate leads for them.
+    Along with a lawyer friend, I designed the most advanced Canadian Will and Testament builder. We are currently offering the wills for free and working on generating leads for life insurance companies.
 
-    * Went Built from prototype to production in 3 months part-time
-    * Over 400 wills built in the first two days with only social media advertising.
-
-    * Futher built a product to incorporate businesses with their minute books in 15 minutes. Used by a number of firms.
-
+    * Progressed from idea to production in 3 months of part-time work
+    * Built over 400 wills in the first two days using only social media advertising
+    * Built another product to help lawyers incorporate businesses and quickly build their minute books. It has been adopted by several law firms.
+    
     Technologies used:
 
-    * Docker/Kubernetes
+    * Virtualization: Docker/Kubernetes in Debian Linux
     * Ruby on Rails
 
-2016-2017
+
+02/16-05/17
 :   **Aerial.ai - VP Product, Co-founder**
 
-    * Sold $100k of business deals in the first 6 months with some of the largest OEMs inthe world.
-    * With only a few technical demos, developed the product strategy for both intrusion detection and eldercare market.
-    * Within a month of starting with Aerial, through customer development, discovered the low hanging fruit for generating early revenue.
-    * For the elder care product. sourced and put in place ideal partnerships with researchers from across Canada to develop out first product for the aging population.
-     
-    * Presenting at Demo Day in June 2016 to an audience of 800 and was voted best pitch by a Montreal newspaper. Video here https://www.youtube.com/watch?v=vT4HGPHEl94
+    * Sold $100k of business deals in the first 6 mos. with some of the largest OEMs
+    * Developed a product strategy for both the intrusion detection and eldercare markets
+    * Discovered ‘low hanging fruit’ for generating early revenue in my first month
+    * Sourced and implemented ideal partnerships with researchers from across Canada to develop our first elder care product for the aging population
+    * Presented at Demo Day in June 2016 to an audience of 800 and was voted ‘Best Pitch’ by a Montreal newspaper. Video here https://www.youtube.com/watch?v=vT4HGPHEl94
 
-2015-2016
+08/15-01/16
 :   **Bus.com - Head of Product**
 
-    Responsible for business model experimentation, all technology UX, analytics, user research, feature design and prioritization. 
+    Responsible for business model experimentation, all technology UX, analytics, user research, feature design and prioritization:
 
-    * To de-risk that bus suppliers would respond to a form instead of an email, developed a quick web form for submission. This was crucial to understand the data we needed to collect even before deciding what to build in production.
-    * Collaborated with event organizer, operations, and sales to develop the first iteration of our "self-serve bus organizer tool".
-    * Used mixpanel analytics, feedback from Intercom and interviews with internal stakeholders to augment the UX and feature set of version 2 of the "self serve bus organizer tool".
-    * Spearheaded multiple strategic opportunities in relates to advanced algorithms, SEO strategies and more.
+    * Developed a quick and easy web form for supplier submissions, that proved crucial to understanding the data we needed to collect
+    * Collaborated with event organizer, operations, and sales to develop the first iteration of our “self-serve bus organizer tool”
+    * Used mixpanel analytics, feedback from Intercom and interviews with internal stakeholders to augment the UX and feature set of version 2 of the “self serve bus organizer tool”
 
-2010 - President
+
+06/10 - President
 :   **Boomlabs.ai - President**
 
-    A unique consultancy that not only builds the machine learning model for a problem, but builds the entire product from end to end.
+    A unique consultancy that not only builds the machine learning model for a problem, but builds the entire product from end to end. Accomplishments include:
 
-    * Developed a chatbot to give auto insurance quotes directly from the insurer. A first in Canada.
-    * Developed a predictive model for a day trading company to do market predictions based on their specific style of trading
-    * Built 15 products in the first five years for various clients. In every one, releasing the first production ready version in two weeks from the start of development.
+    * Developed a chatbot to give auto insurance quotes directly from the insurer, which was a ‘first’ in Canada.
+    * Developed a predictive model to allow a day trading company to make market predictions based on its specific style of trading
+    * Built 15 products in the first five years for various clients, in each case releasing the first production-ready version two weeks from the start of development
+    * Implemented virtualization using Google Cloud and Digital Ocean’s infrastructures. We use Docker Compose and Kubernetes with Debian Linux.
+    * Built initial product design in Invision and Marvel, usually in under two days
+    * Helped organizations develop their own internal machine learning product
+    * Recruited a team of 7 Engineers and developers and 2 Designers.  Two of these professionals have come along with me to other companies and client projects.
+    * Maintaining a high code quality through continuous integration and regular deployment using Circle CI and Docker images.
 
-    * Consulted for a number of organizations to help develop their own internal machine learning product
-    * (At it’s max) Team of 7 Engineers (Consulting), and 2 Designers (Consulting)
+
+05/07 - 06/10 
+:     **Software Engineer - Government of Canada**
+
+* Worked on the development of high performance kernel optimizations
+* Implemented source control for a team of 8 and an automated workflow to build and manage these kernel patches
+* Sourced world class kernel experts to build linux drivers and firmware for our proprietary hardware
+
 
 Other Contributions and Projects
 ----------------------------------------
 
 **Lean Startup Circle Montreal**
 
-I was the founder of the largest Lean Startup communities in Quebec.
+Founder of the largest Lean Startup communities in the province of Quebec.
 
 **Built in a Day Podcast**
 
-I co-hosted a podcast where individuals call in and we help then de-risk their business idea. Amazing feedback. Still available to listen at: [builtinadaypodcast.com](http://www.builtinadaypodcast.com).
+Co-host of a podcast callers turn to for help ‘de-risking’ their business ideas. Reflects my passion for building scrappy products to test the market. Available at: [builtinadaypodcast.com](http://www.builtinadaypodcast.com).
 
 **Home Routes Ottawa**
 
-We volunteer to host concerts in our home for the community. Artists are from all across North America.
+Volunteer host of concerts in our home featuring artists from all across North America.
 
 **Brazillian Jiu Jitsu Kids Coach**
 
-I assist in the coaching of the BJJ class in our local gym where I also train.
+Assistant coach of the BJJ class in our local gym
 
 ----
 
