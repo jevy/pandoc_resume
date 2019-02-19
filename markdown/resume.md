@@ -5,7 +5,7 @@ Jevin Maltais
 
 Starting at age 13, I’ve been a serial entrepreneur building new businesses. I have managed remote teams of up to 12 engineers, designers and product managers in diverse industry sectors. While designing innovative products for clients, I’ve learned how to be a lean and proficient ‘trial by fire’ product manager, facilitating efficient coordination among all team members.
 
-I’m interested in leading either a product team or an engineering team or a combination of both. I’m also comfortable managing Data Scientists, especially where there is a desire to focus their expertise more on products.
+I’m competent in leading product teams, engineering teams or applied data science teams.
 
 I’m currently based in Ottawa, Canada, and interested exclusively in remote positions (with some travel).
 
@@ -27,12 +27,11 @@ Professional Experience
     Stepping into a CTO role to fill a 5 month vacuum in technical/product leadership, I encountered a ton of tech, management and emotional baggage to work through with the team. I took over all product management and technical architecture for the company:
 
     * Built the first publicly available, Deep Learning skin classifier app for over 124 dermatological conditions.
-    * Lead the FDA submission documentation and internal compliance process.
-    * Manage all technology development and the product roadmap.
+    * Lead the technical FDA submission documentation and internal compliance process.
     * Lead the product redesign of our internal data exploration and data analysis tool on over 2 TB of images in our data storage.
+    * Worked with the data management team to stop doing manual labelling of data. Coached the team to build Mechanical Turk tasks, recruited a team of 20 dermatologists to classify skin conditions in images and a team of General Practitioners to help build our symptom checker database.
     * Restored collaboration between the data management and data science teams. We worked to isolate problem areas and come up with more functional systems. They are now working nearly as as single team.
     * To clarify its priorities and direction, I transitioned the entire company from Github issues to Clubhouse, resulting in positive design decisions and tangible feedback that it produced new momentum for the company.
-    * Worked with the data management team to stop doing manual labelling of data. Coached the team to build Mechanical Turk tasks, recruited a team of 20 dermatologists to classify skin conditions in images and a team of General Practitioners to help build our symptom checker database.
     * Set up and implemented the core company KPIs in Metabase, where they were posted to Slack on a daily/weekly basis.
     * Immediately implemented bi-weekly one on ones with everybody on my team to coach individuals through their technical and professional challenges and found external counselling and mentorship as needed.
     * Hired 2 engineers and 3 devops consultants in my first 2 months.
