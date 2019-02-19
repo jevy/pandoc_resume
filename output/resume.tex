@@ -1,0 +1,323 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[title={Jevin Maltais},reference={jevin-maltais}]
+
+\thinrule
+
+Starting at age 13, I've been a serial entrepreneur building new
+businesses. I have managed remote teams of up to 12 engineers, designers
+and product managers in diverse industry sectors. While designing
+innovative products for clients, I've learned how to be a lean and
+proficient \quote{trial by fire} product manager, facilitating efficient
+coordination among all team members.
+
+I'm competent in leading product teams, engineering teams or applied
+data science teams.
+
+I'm currently based in Ottawa, Canada, and interested exclusively in
+remote positions (with some travel).
+
+\thinrule
+
+\subsection[title={Education},reference={education}]
+
+\startdescription{2002-2007}
+  {\bf B.Eng Systems Engineering} Carleton University (Ottawa)
+\stopdescription
+
+\subsection[title={Professional
+Experience},reference={professional-experience}]
+
+\startdescription{02/18-01/19}
+  {\bf Triage.com: CTO and Director of Product Engineering:}
+
+  Stepping into a CTO role to fill a 5 month vacuum in technical/product
+  leadership, I encountered a ton of tech, management and emotional
+  baggage to work through with the team. I took over all product
+  management and technical architecture for the company:
+
+  \startitemize[packed]
+  \item
+    Built the first publicly available, Deep Learning skin classifier
+    app for over 124 dermatological conditions.
+  \item
+    Lead the technical FDA submission documentation and internal
+    compliance process.
+  \item
+    Lead the product redesign of our internal data exploration and data
+    analysis tool on over 2 TB of images in our data storage.
+  \item
+    Worked with the data management team to stop doing manual labelling
+    of data. Coached the team to build Mechanical Turk tasks, recruited
+    a team of 20 dermatologists to classify skin conditions in images
+    and a team of General Practitioners to help build our symptom
+    checker database.
+  \item
+    Restored collaboration between the data management and data science
+    teams. We worked to isolate problem areas and come up with more
+    functional systems. They are now working nearly as as single team.
+  \item
+    To clarify its priorities and direction, I transitioned the entire
+    company from Github issues to Clubhouse, resulting in positive
+    design decisions and tangible feedback that it produced new momentum
+    for the company.
+  \item
+    Set up and implemented the core company KPIs in Metabase, where they
+    were posted to Slack on a daily/weekly basis.
+  \item
+    Immediately implemented bi-weekly one on ones with everybody on my
+    team to coach individuals through their technical and professional
+    challenges and found external counselling and mentorship as needed.
+  \item
+    Hired 2 engineers and 3 devops consultants in my first 2 months.
+  \item
+    Conducted team video training sessions on effective use of our tech
+    tools. This improved communication and boosted the quality of
+    product development.
+  \item
+    Implemented a career ladder for the data science and software
+    engineering teams, resulting in concrete plans to set expectations
+    and manage performance, growth and retention strategies.
+  \stopitemize
+
+  All this was accomplished as several team members and I worked
+  remotely. The team includes 6 Data Scientists, 4 Engineers and 3 Data
+  Managers working with:
+
+  \startitemize[packed]
+  \item
+    Keras
+  \item
+    Virtualization: Docker/Kubernetes in Debian Linux
+  \item
+    React
+  \item
+    Ruby on Rails
+  \stopitemize
+\stopdescription
+
+\startdescription{09/17 - Present}
+  {\bf Willowbee.ca - Product Manager, Technical Manager, and Marketing.
+  Founder}
+
+  Along with a lawyer friend, I designed the most advanced Canadian Will
+  and Testament builder. We are currently offering the wills for free
+  and working on generating leads for life insurance companies.
+
+  \startitemize[packed]
+  \item
+    Progressed from idea to production in 3 months of part-time work.
+  \item
+    Built over 400 wills in the first two days using only social media
+    advertising.
+  \item
+    Built another product to help lawyers incorporate businesses and
+    quickly build their minute books. It has been adopted by several law
+    firms.
+  \stopitemize
+
+  Technologies used:
+
+  \startitemize[packed]
+  \item
+    Virtualization: Docker/Kubernetes in Debian Linux
+  \item
+    Ruby on Rails
+  \stopitemize
+\stopdescription
+
+\startdescription{02/16-05/17}
+  {\bf Aerial.ai - VP Product, Co-founder}
+
+  \startitemize[packed]
+  \item
+    Sold \$100k of business deals in the first 6 months with some of the
+    world's largest OEMs.
+  \item
+    Developed a product strategy for both the intrusion detection and
+    eldercare markets.
+  \item
+    Discovered \quote{low hanging fruit} for generating early revenue in
+    my first month.
+  \item
+    Sourced and implemented ideal partnerships with researchers from
+    across Canada to develop our first elder care product for the aging
+    population.
+  \item
+    Presented at Demo Day in June 2016 to an audience of 800 and was
+    voted \quote{Best Pitch} by a Montreal newspaper. Video here:
+    \useURL[url1][https://www.youtube.com/watch?v=vT4HGPHEl94]\from[url1]
+  \stopitemize
+\stopdescription
+
+\startdescription{08/15-01/16}
+  {\bf Bus.com - Head of Product}
+
+  Responsible for business model experimentation, all technology UX,
+  analytics, user research, feature design and prioritization:
+
+  \startitemize[packed]
+  \item
+    Developed a quick and easy web form for supplier submissions, that
+    proved crucial to understanding the data we needed to collect.
+  \item
+    Collaborated with event organizer, operations, and sales to develop
+    the first iteration of our \quotation{self-serve bus organizer
+    tool}.
+  \item
+    Used Mixpanel analytics, feedback from Intercom and interviews with
+    internal stakeholders to augment the UX and feature set of version 2
+    of the \quotation{self serve bus organizer tool}.
+  \stopitemize
+\stopdescription
+
+\startdescription{06/10 - Present}
+  {\bf Boomlabs.ai - President}
+
+  A unique consultancy that not only builds the machine learning model
+  for a problem, but builds the entire product from end to end.
+  Accomplishments include:
+
+  \startitemize[packed]
+  \item
+    Developed a chatbot to give auto insurance quotes directly from the
+    insurer, which was a \quote{first} in Canada.
+  \item
+    Developed a predictive model to allow a day trading company to make
+    market predictions based on its specific style of trading.
+  \item
+    Built 15 products in the first five years for various clients, in
+    each case releasing the first production-ready version two weeks
+    from the start of development.
+  \item
+    Implemented virtualization using Google Cloud and Digital Ocean's
+    infrastructures. We use Docker Compose and Kubernetes with Debian
+    Linux.
+  \item
+    Built initial product designs in Invision and Marvel, usually in
+    under two days.
+  \item
+    Recruited a team of 7 Engineers and developers and 2 Designers. Two
+    of these professionals have come along with me to other companies
+    and client projects.
+  \item
+    Maintaining a high code quality through continuous integration and
+    regular deployment using Circle CI and Docker images.
+  \stopitemize
+\stopdescription
+
+\startdescription{05/07 - 06/10}
+  {\bf Software Engineer - Government of Canada}
+
+  \startitemize[packed]
+  \item
+    Worked on the development of high performance kernel optimizations.
+  \item
+    Implemented source control for a team of 8 and an automated workflow
+    to build and manage these kernel patches.
+  \item
+    Sourced world class kernel experts to build Linux drivers and
+    firmware for our proprietary hardware.
+  \stopitemize
+\stopdescription
+
+\subsection[title={Other Contributions and
+Projects},reference={other-contributions-and-projects}]
+
+{\bf Lean Startup Circle Montreal}
+
+Founder of the largest Lean Startup communities in the province of
+Quebec.
+
+{\bf Built in a Day Podcast}
+
+Co-host of a podcast callers turn to for help \quote{de-risking} their
+business ideas. Reflects my passion for building scrappy products to
+test the market. Available at:
+\useURL[url2][http://www.builtinadaypodcast.com][][builtinadaypodcast.com]\from[url2].
+
+{\bf Home Routes Ottawa}
+
+Volunteer host of concerts in our home featuring artists from all across
+North America.
+
+{\bf Brazillian Jiu Jitsu Kids Coach}
+
+Assistant coach of the BJJ class in our local gym.
+
+\thinrule
+
+\startblockquote
+\useURL[url3][mailto:jevin@quickjack.ca][][jevin@quickjack.ca]\from[url3]
+• +1 (438) 880-5389 20 Appleford St., Ottawa, Ontario, K1J 6T9, Canada
+\stopblockquote
+
+\stoptext
