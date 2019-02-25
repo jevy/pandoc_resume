@@ -3,20 +3,11 @@ Jevin Maltais
 
 ----
 
-Starting at age 13, I’ve been a serial entrepreneur building new businesses. I have managed remote teams of up to 12 engineers, designers and product managers in diverse industry sectors. While designing innovative products for clients, I’ve learned how to be a lean and proficient ‘trial by fire’ product manager, facilitating efficient coordination among all team members.
+I have managed remote teams of 12 engineers, designers and product managers in diverse industry sectors. While designing innovative products for clients, I’ve learned how to be a lean and proficient product manager, facilitating efficient coordination among all team members.
 
-I’m competent in leading product teams, engineering teams or applied data science teams.
-
-I’m currently based in Ottawa, Canada, and interested exclusively in remote positions (with some travel).
+I’m awesome at leading product teams, engineering teams or applied data science teams.
 
 ----
-
-Education
----------
-
-2002-2007
-:   **B.Eng Systems Engineering**
-    Carleton University (Ottawa)
 
 Professional Experience
 ----------
@@ -28,11 +19,11 @@ Professional Experience
 
     * Built the first publicly available, Deep Learning skin classifier app for over 124 dermatological conditions.
     * Lead the technical FDA submission documentation and internal compliance process.
-    * Lead the product redesign of our internal data exploration and data analysis tool on over 2 TB of images in our data storage.
+    * Lead the new product design of our internal data exploration and data analysis tool on over 2 TB of images in our data storage.
     * Worked with the data management team to stop doing manual labelling of data. Coached the team to build Mechanical Turk tasks, recruited a team of 20 dermatologists to classify skin conditions in images and a team of General Practitioners to help build our symptom checker database.
     * Restored collaboration between the data management and data science teams. We worked to isolate problem areas and come up with more functional systems. They are now working nearly as as single team.
     * To clarify its priorities and direction, I transitioned the entire company from Github issues to Clubhouse, resulting in positive design decisions and tangible feedback that it produced new momentum for the company.
-    * Set up and implemented the core company KPIs in Metabase, where they were posted to Slack on a daily/weekly basis.
+    * Set up and implemented the core company KPI reporting in Metabase, where they were posted to Slack on a daily/weekly basis.
     * Immediately implemented bi-weekly one on ones with everybody on my team to coach individuals through their technical and professional challenges and found external counselling and mentorship as needed.
     * Hired 2 engineers and 3 devops consultants in my first 2 months.
     * Conducted team video training sessions on effective use of our tech tools. This improved communication and boosted the quality of product development.
@@ -42,13 +33,13 @@ Professional Experience
 
     * Keras
     * Virtualization: Docker/Kubernetes in Debian Linux
-    * React
+    * React and Javascript
     * Ruby on Rails
 
 09/17 - Present
-:   **Willowbee.ca - Product Manager, Technical Manager, and Marketing.  Founder**
+:   **Willowbee.ca - Engineering Manager and Product Manager.  Co-Founder**
 
-    Along with a lawyer friend, I designed the most advanced Canadian Will and Testament builder. We are currently offering the wills for free and working on generating leads for life insurance companies.
+    Along with a lawyer friend, I designed the most advanced Canadian Will and Testament application. We are currently offering the wills for free and working on generating leads for life insurance companies.
 
     * Progressed from idea to production in 3 months of part-time work.
     * Built over 400 wills in the first two days using only social media advertising.
@@ -99,6 +90,14 @@ Professional Experience
     * Worked on the development of high performance kernel optimizations.
     * Implemented source control for a team of 8 and an automated workflow to build and manage these kernel patches.
     * Sourced world class kernel experts to build Linux drivers and firmware for our proprietary hardware.
+
+Education
+---------
+
+2002-2007
+:   **B.Eng Systems Engineering**
+    Carleton University (Ottawa)
+
 
 
 Other Contributions and Projects

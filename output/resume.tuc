@@ -163,12 +163,12 @@ utilitydata.structures.lists.collected={
    ["block"]="bodypart",
    ["internal"]=2,
    ["realpage"]=1,
-   ["reference"]="education",
+   ["reference"]="professional-experience",
    ["section"]=2,
   },
   ["titledata"]={
    ["label"]="subsection",
-   ["title"]="Education",
+   ["title"]="Professional Experience",
   },
  },
  {
@@ -180,43 +180,16 @@ utilitydata.structures.lists.collected={
    ["section"]=2,
   },
   ["titledata"]={
-   ["title"]="2002-2007",
-  },
- },
- {
-  ["metadata"]=4,
-  ["numberdata"]=9,
-  ["references"]={
-   ["block"]="bodypart",
-   ["internal"]=4,
-   ["realpage"]=1,
-   ["reference"]="professional-experience",
-   ["section"]=3,
-  },
-  ["titledata"]={
-   ["label"]="subsection",
-   ["title"]="Professional Experience",
-  },
- },
- {
-  ["metadata"]=7,
-  ["references"]={
-   ["internal"]=5,
-   ["order"]=2,
-   ["realpage"]=1,
-   ["section"]=3,
-  },
-  ["titledata"]={
    ["title"]="02/18-01/19",
   },
  },
  {
   ["metadata"]=7,
   ["references"]={
-   ["internal"]=6,
-   ["order"]=3,
+   ["internal"]=4,
+   ["order"]=2,
    ["realpage"]=2,
-   ["section"]=3,
+   ["section"]=2,
   },
   ["titledata"]={
    ["title"]="09/17 - Present",
@@ -225,10 +198,10 @@ utilitydata.structures.lists.collected={
  {
   ["metadata"]=7,
   ["references"]={
-   ["internal"]=7,
-   ["order"]=4,
+   ["internal"]=5,
+   ["order"]=3,
    ["realpage"]=2,
-   ["section"]=3,
+   ["section"]=2,
   },
   ["titledata"]={
    ["title"]="02/16-05/17",
@@ -237,10 +210,10 @@ utilitydata.structures.lists.collected={
  {
   ["metadata"]=7,
   ["references"]={
-   ["internal"]=8,
-   ["order"]=5,
+   ["internal"]=6,
+   ["order"]=4,
    ["realpage"]=2,
-   ["section"]=3,
+   ["section"]=2,
   },
   ["titledata"]={
    ["title"]="08/15-01/16",
@@ -249,13 +222,40 @@ utilitydata.structures.lists.collected={
  {
   ["metadata"]=7,
   ["references"]={
-   ["internal"]=9,
-   ["order"]=6,
-   ["realpage"]=3,
-   ["section"]=3,
+   ["internal"]=7,
+   ["order"]=5,
+   ["realpage"]=2,
+   ["section"]=2,
   },
   ["titledata"]={
    ["title"]="06/10 - Present",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["references"]={
+   ["internal"]=8,
+   ["order"]=6,
+   ["realpage"]=3,
+   ["section"]=2,
+  },
+  ["titledata"]={
+   ["title"]="05/07 - 06/10",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=9,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=9,
+   ["realpage"]=3,
+   ["reference"]="education",
+   ["section"]=3,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Education",
   },
  },
  {
@@ -267,7 +267,7 @@ utilitydata.structures.lists.collected={
    ["section"]=3,
   },
   ["titledata"]={
-   ["title"]="05/07 - 06/10",
+   ["title"]="2002-2007",
   },
  },
  {
