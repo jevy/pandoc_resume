@@ -4,8 +4,8 @@ utilitydata.comment={
  ["escape"]="[===[ ... ]===]",
  ["file"]="resume",
  ["format"]="cont-en",
- ["stamp"]="2017.05.15 21:48",
- ["version"]=1.3,
+ ["stamp"]="2019.03.21 21:39",
+ ["version"]=1.31,
 }
 
 if not utilitydata.job then utilitydata.job = { } end
@@ -19,7 +19,7 @@ if not utilitydata.job.variables then utilitydata.job.variables = { } end
 
 utilitydata.job.variables.collected={
  ["macros"]={},
- ["randomseed"]=0.80566969784241,
+ ["randomseed"]=0.5120823988691,
  ["sectionblockorder"]={},
 }
 
@@ -28,7 +28,7 @@ if not utilitydata.job.structure then utilitydata.job.structure = { } end
 
 utilitydata.job.structure.collected={
  ["branches"]={},
- ["name"]="resume",
+ ["name"]="",
  ["type"]="text",
 }
 
@@ -43,28 +43,34 @@ if not utilitydata.job.passes then utilitydata.job.passes = { } end
 
 utilitydata.job.passes.collected={
  ["itemgroup:itemize:1"]={
-  { 11, 0 },
+  { 6, 0 },
  },
- ["itemgroup:itemize:2"]={
+ ["itemgroup:itemize:10"]={
   { 4, 0 },
  },
- ["itemgroup:itemize:3"]={
-  { 3, 0 },
- },
- ["itemgroup:itemize:4"]={
-  { 2, 0 },
- },
- ["itemgroup:itemize:5"]={
-  { 5, 0 },
- },
- ["itemgroup:itemize:6"]={
-  { 3, 0 },
- },
- ["itemgroup:itemize:7"]={
+ ["itemgroup:itemize:2"]={
   { 7, 0 },
  },
+ ["itemgroup:itemize:3"]={
+  { 7, 0 },
+ },
+ ["itemgroup:itemize:4"]={
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:5"]={
+  { 4, 0 },
+ },
+ ["itemgroup:itemize:6"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:7"]={
+  { 4, 0 },
+ },
  ["itemgroup:itemize:8"]={
-  { 3, 0 },
+  { 4, 0 },
+ },
+ ["itemgroup:itemize:9"]={
+  { 4, 0 },
  },
 }
 
@@ -84,6 +90,57 @@ if not utilitydata.structures then utilitydata.structures = { } end
 if not utilitydata.structures.specials then utilitydata.structures.specials = { } end
 
 utilitydata.structures.specials.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.sections then utilitydata.structures.sections = { } end
+
+utilitydata.structures.sections.collected={
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="en",
+  ["numbers"]=1,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="en",
+  ["numbers"]=2,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="en",
+  ["numbers"]=3,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="en",
+  ["numbers"]=4,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="en",
+  ["numbers"]=5,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end
@@ -115,7 +172,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 11, 4, 3, 2, 5, 3, 7, 3 },
+  { 0, 6, 7, 7, 1, 4, 2, 4, 4, 4, 4 },
  },
  ["linenote"]={
   { 0 },
@@ -127,7 +184,7 @@ utilitydata.structures.counters.collected={
   { 3 },
  },
  ["subpage"]={
-  { 1 },
+  { 3 },
  },
  ["table"]={
   { 0 },
@@ -142,8 +199,8 @@ if not utilitydata.structures.lists then utilitydata.structures.lists = { } end
 
 utilitydata.structures.lists.collected={
  {
-  ["metadata"]=1,
-  ["numberdata"]=3,
+  ["metadata"]=6,
+  ["numberdata"]=7,
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=1,
@@ -157,14 +214,29 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=4,
-  ["numberdata"]=6,
+  ["metadata"]=8,
+  ["numberdata"]=9,
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=2,
    ["realpage"]=1,
-   ["reference"]="professional-experience",
+   ["reference"]="certifications",
    ["section"]=2,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Certifications",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=10,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=3,
+   ["realpage"]=1,
+   ["reference"]="professional-experience",
+   ["section"]=3,
   },
   ["titledata"]={
    ["label"]="subsection",
@@ -172,94 +244,79 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=7,
+  ["metadata"]=11,
   ["references"]={
-   ["internal"]=3,
+   ["internal"]=4,
    ["order"]=1,
    ["realpage"]=1,
-   ["section"]=2,
+   ["section"]=3,
   },
   ["titledata"]={
    ["title"]="02/18-01/19",
   },
  },
  {
-  ["metadata"]=7,
+  ["metadata"]=11,
   ["references"]={
-   ["internal"]=4,
+   ["internal"]=5,
    ["order"]=2,
-   ["realpage"]=2,
-   ["section"]=2,
+   ["realpage"]=1,
+   ["section"]=3,
   },
   ["titledata"]={
-   ["title"]="09/17 - Present",
+   ["title"]="01/10-Present",
   },
  },
  {
-  ["metadata"]=7,
+  ["metadata"]=11,
   ["references"]={
-   ["internal"]=5,
+   ["internal"]=6,
    ["order"]=3,
    ["realpage"]=2,
-   ["section"]=2,
+   ["section"]=3,
+  },
+  ["titledata"]={
+   ["title"]="07/19-Current",
+  },
+ },
+ {
+  ["metadata"]=11,
+  ["references"]={
+   ["internal"]=7,
+   ["order"]=4,
+   ["realpage"]=2,
+   ["section"]=3,
+  },
+  ["titledata"]={
+   ["title"]="09/17 - 12/19",
+  },
+ },
+ {
+  ["metadata"]=11,
+  ["references"]={
+   ["internal"]=8,
+   ["order"]=5,
+   ["realpage"]=2,
+   ["section"]=3,
   },
   ["titledata"]={
    ["title"]="02/16-05/17",
   },
  },
  {
-  ["metadata"]=7,
+  ["metadata"]=11,
   ["references"]={
-   ["internal"]=6,
-   ["order"]=4,
-   ["realpage"]=2,
-   ["section"]=2,
+   ["internal"]=9,
+   ["order"]=6,
+   ["realpage"]=3,
+   ["section"]=3,
   },
   ["titledata"]={
    ["title"]="08/15-01/16",
   },
  },
  {
-  ["metadata"]=7,
-  ["references"]={
-   ["internal"]=7,
-   ["order"]=5,
-   ["realpage"]=2,
-   ["section"]=2,
-  },
-  ["titledata"]={
-   ["title"]="06/10 - Present",
-  },
- },
- {
-  ["metadata"]=7,
-  ["references"]={
-   ["internal"]=8,
-   ["order"]=6,
-   ["realpage"]=3,
-   ["section"]=2,
-  },
-  ["titledata"]={
-   ["title"]="05/07 - 06/10",
-  },
- },
- {
-  ["metadata"]=4,
-  ["numberdata"]=9,
-  ["references"]={
-   ["block"]="bodypart",
-   ["internal"]=9,
-   ["realpage"]=3,
-   ["reference"]="education",
-   ["section"]=3,
-  },
-  ["titledata"]={
-   ["label"]="subsection",
-   ["title"]="Education",
-  },
- },
- {
-  ["metadata"]=7,
+  ["metadata"]=11,
   ["references"]={
    ["internal"]=10,
    ["order"]=7,
@@ -267,22 +324,49 @@ utilitydata.structures.lists.collected={
    ["section"]=3,
   },
   ["titledata"]={
-   ["title"]="2002-2007",
+   ["title"]="05/07 - 06/10",
   },
  },
  {
-  ["metadata"]=4,
-  ["numberdata"]=11,
+  ["metadata"]=8,
+  ["numberdata"]=12,
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=11,
    ["realpage"]=3,
-   ["reference"]="other-contributions-and-projects",
+   ["reference"]="skills",
    ["section"]=4,
   },
   ["titledata"]={
    ["label"]="subsection",
-   ["title"]="Other Contributions and Projects",
+   ["title"]="Skills",
+  },
+ },
+ {
+  ["metadata"]=8,
+  ["numberdata"]=13,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=12,
+   ["realpage"]=3,
+   ["reference"]="education",
+   ["section"]=5,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Education",
+  },
+ },
+ {
+  ["metadata"]=11,
+  ["references"]={
+   ["internal"]=13,
+   ["order"]=8,
+   ["realpage"]=3,
+   ["section"]=5,
+  },
+  ["titledata"]={
+   ["title"]="2002-2007",
   },
  },
 }
@@ -294,22 +378,22 @@ utilitydata.structures.pages.collected={
  {
   ["block"]="bodypart",
   ["number"]=1,
-  ["numberdata"]=12,
-  ["prefixdata"]=13,
+  ["numberdata"]=14,
+  ["prefixdata"]=15,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=2,
-  ["numberdata"]=12,
-  ["prefixdata"]=13,
+  ["numberdata"]=14,
+  ["prefixdata"]=15,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=3,
-  ["numberdata"]=12,
-  ["prefixdata"]=13,
+  ["numberdata"]=14,
+  ["prefixdata"]=15,
   ["state"]="start",
  },
 }
@@ -324,8 +408,7 @@ if not utilitydata.structures then utilitydata.structures = { } end
 if not utilitydata.structures.references then utilitydata.structures.references = { } end
 
 utilitydata.structures.references.referred={
- { 2, 1 },
- { 3, 2 },
+ { 3, 1 },
 }
 
 if not utilitydata.job then utilitydata.job = { } end
@@ -369,8 +452,19 @@ if not utilitydata.job.fileobjreferences then utilitydata.job.fileobjreferences 
 utilitydata.job.fileobjreferences.collected={
 }
 
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.embedded then utilitydata.job.embedded = { } end
+
+utilitydata.job.embedded.collected={
+}
+
 utilitydata.job.packed={
  ["index"]={
+  { 0, 0, 1 },
+  { 0, 0, 1, 1 },
+  { 0, 0, 1, 2 },
+  { 0, 0, 1, 3 },
+  { 0, 0, 1, 4 },
   {
    ["catcodes"]=8,
    ["coding"]="tex",
@@ -379,13 +473,12 @@ utilitydata.job.packed={
    ["level"]=3,
    ["name"]="section",
   },
-  { 0, 0, 1 },
   {
    ["block"]="bodypart",
    ["conversionset"]="default",
    ["hidenumber"]=true,
    ["language"]="en",
-   ["numbers"]=2,
+   ["numbers"]=1,
    ["separatorset"]="default",
    ["set"]="all",
   },
@@ -397,13 +490,21 @@ utilitydata.job.packed={
    ["level"]=4,
    ["name"]="subsection",
   },
-  { 0, 0, 1, 1 },
   {
    ["block"]="bodypart",
    ["conversionset"]="default",
    ["hidenumber"]=true,
    ["language"]="en",
-   ["numbers"]=5,
+   ["numbers"]=2,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="en",
+   ["numbers"]=3,
    ["separatorset"]="default",
    ["set"]="all",
   },
@@ -413,23 +514,21 @@ utilitydata.job.packed={
    ["level"]=4,
    ["name"]="description",
   },
-  { 0, 0, 1, 2 },
   {
    ["block"]="bodypart",
    ["conversionset"]="default",
    ["hidenumber"]=true,
    ["language"]="en",
-   ["numbers"]=8,
+   ["numbers"]=4,
    ["separatorset"]="default",
    ["set"]="all",
   },
-  { 0, 0, 1, 3 },
   {
    ["block"]="bodypart",
    ["conversionset"]="default",
    ["hidenumber"]=true,
    ["language"]="en",
-   ["numbers"]=10,
+   ["numbers"]=5,
    ["separatorset"]="default",
    ["set"]="all",
   },
@@ -447,6 +546,7 @@ utilitydata.job.packed={
   ["metadata"]=true,
   ["numberdata"]=true,
   ["numbers"]=true,
+  ["ownnumbers"]=true,
   ["pagedata"]=true,
   ["prefixdata"]=true,
   ["processors"]=true,
@@ -455,6 +555,7 @@ utilitydata.job.packed={
  },
  ["skip"]={
   ["datasets"]=true,
+  ["positions"]=true,
   ["userdata"]=true,
  },
  ["version"]=1.02,
